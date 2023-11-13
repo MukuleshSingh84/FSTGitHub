@@ -1,0 +1,7 @@
+Given I navigate to "(AppURL)"
+And I click on "[Signin]" button
+And I click on "[TVSUBSCRIBER]" link
+And I click on "[EmployeeGuestAccess]" link
+And I enter into input field "[UserName]" the value "(UserName)"
+And I enter into input field "[Password]" the value "(Password)"
+And I click on "[login]" button
