@@ -5,3 +5,13 @@ And I click on "[EmployeeGuestAccess]" link
 And I enter into input field "[UserName]" the value "(UserName)"
 And I enter into input field "[Password]" the value "(Password)"
 And I click on "[login]" button
+And I add wait seconds of "15"
+And I click on "[CraveAdult]" link
+And I navigate to "(AppURLShows)"
+And "[CraveBrandLogo]" should be present
+And "[ParentalCTRLMsgBox]" should not be present
+And I take screenshot
+And I navigate to "(AppURLMovies)"
+And "[CraveBrandLogo]" should be present
+And "[ParentalCTRLMsgBox]" should not be present
+And I take screenshot
