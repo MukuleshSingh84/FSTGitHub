@@ -1,0 +1,4 @@
+select * from toys inner join brics on toy_id=bric_id;
+select * from toys left join brics on toy_id=bric_id;
+select * from toys right join brics on toy_id=bric_id;
+select * from toys right join brics on toy_id=bric_id;
